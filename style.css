@@ -1,0 +1,87 @@
+.screen {
+  height: 100vh;
+}
+
+.content {
+  grid-column-start: 2;
+}
+
+#presentation {
+  display:grid;
+  grid-template-columns: 1fr 1024px 1fr;
+}
+
+#works {
+  display:grid;
+  grid-template-columns: 1fr 1024px 1fr;
+}
+
+#maintitle {
+  align-self: center;
+}
+
+
+div {
+  border:solid;
+}
+
+h1 {
+  color: #39393a;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+
+}
+
+h2 {
+  color: #fefe37;
+  background-color: #39393a;
+  margin-top: 32px;
+
+}
+
+img {
+  width: 160px;
+  height: 160px;
+}
+
+#tinyme {
+  width: 25%;
+  height: 25%;
+}
+
+#portrait {
+  width:100%;
+  text-align: center;
+}
+
+#notjust {
+  color: #fefe37;
+  background-color: #39393a;
+}
+
+p {
+  color: #39393a;
+}
+
+#worklist li {
+  display: inline;
+  margin: 32px;
+}
+
+#worklist {
+  text-align: center;
+}
+
+#lets {
+  text-align: center;
+}
+
+#contactlist li {
+  display: inline;
+  margin: 32px;
+}
+
+#contactlist {
+  text-align: center;
+}
