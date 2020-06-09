@@ -1,3 +1,21 @@
+
+/* for the sake of the structure, I will live the divs with border, so I can see
+exactly how am I positioning the stuff */
+
+div {
+  border:solid;
+}
+
+/* the idea so far is for the content to occupy the center of the screen,
+in three different screens:
+presentation
+works
+about me
+
+The menu and the footer are not part of this and I will work on them later.
+The thing is that, since I want to occupy the screen verically, I use a div for
+each content, with a with of 100vh*/
+
 .screen {
   height: 100vh;
 }
@@ -21,9 +39,6 @@
 }
 
 
-div {
-  border:solid;
-}
 
 h1 {
   color: #39393a;
